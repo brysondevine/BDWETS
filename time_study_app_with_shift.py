@@ -30,7 +30,7 @@ for key, default in {
         st.session_state[key] = default
 
 # ---------- Title ----------
-st.title("⏱️ Cyclic Work Element Time Study Application")
+st.title("⏱️ Cyclic Work Measurement App")
 
 # ---------- Project + Shift Selection ----------
 if not st.session_state["project_name"]:
