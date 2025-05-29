@@ -30,7 +30,7 @@ for key, default in {
         st.session_state[key] = default
 
 # ---------- Title ----------
-st.title("⏱️ Time Study App")
+st.title("⏱️ Cyclic Work Element Time Study Application")
 
 # ---------- Project + Shift Selection ----------
 if not st.session_state["project_name"]:
@@ -41,7 +41,7 @@ if st.session_state["project_name"] and not st.session_state["shift"]:
 
 # ---------- Add Element Page ----------
 def show_add_elements_page():
-    st.markdown("### ➕ Add a New Element")
+    st.markdown("### ➕ Add a New Work Element")
     with st.form("add_element_form"):
         new_element = st.text_input("Element name", key="element_input")
         submitted = st.form_submit_button("Add Element")
