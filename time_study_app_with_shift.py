@@ -121,6 +121,3 @@ elif not st.session_state["start_timers"]:
     show_add_elements_page()
 else:
     show_timing_page()
-
-# ---------- Credits ----------
-st.title("Created by Bryson Devine")
